@@ -1,0 +1,6 @@
+gcc -o 431_FinalCode 431_FinalCode.c
+gcc -o outputG1 outputG1.c
+./431_FinalCode < select1.txt >temp.txt
+./outputG1 < temp.txt >output1.rpt
+
+./431_FinalCode < buildTable.txt

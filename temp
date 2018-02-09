@@ -1,0 +1,20 @@
+20171001,08,16,Monday,97001,Care Room,doctor
+20171001,16,00,Monday,97002,Heart,Header
+20171002,00,08,Tuesday,97003,Emergency,doctor
+20171002,08,16,Tuesday,97001,Emergency,Nurse
+20171002,16,00,Tuesday,97002,Heart,Header
+20171003,00,08,Wednesday,97003,Care Room,Header
+20171003,08,16,Wednesday,97001,Care Room,Nurse
+20171003,16,00,Wednesday,97002,Heart,doctor
+20171004,00,08,Thursday,97003,Emergency,Nurse
+20171004,08,16,Thursday,97001,Heart,Header
+20171004,16,00,Thursday,97002,Care Room,Header
+20171005,00,08,Friday,97003,Emergency,doctor
+20171005,08,16,Friday,97001,Emergency,doctor
+20171005,16,00,Friday,97002,Care Room,Header
+20171006,00,08,Saturday,97003,Heart,doctor
+20171006,08,16,Saturday,97001,Heart,Nurse
+20171006,16,00,Saturday,97002,Emergency,Header
+20171007,00,08,Sunday,97003,Care Room,doctor
+20171007,08,16,Sunday,97001,Care Room,Header
+20171007,16,00,Sunday,97002,Emergency,Nurse

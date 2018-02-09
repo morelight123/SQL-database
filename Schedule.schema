@@ -1,0 +1,5 @@
+ADD depart_ID char 10
+ADD shift_ID char 10
+ADD employee_ID char 10
+ADD role_ID char 10
+ADD salary_ID char 10

@@ -1,0 +1,2 @@
+ADD roleID char 10
+ADD roleName char 10

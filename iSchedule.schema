@@ -1,0 +1,7 @@
+ADD shiftDate char 10
+ADD startTime char 10
+ADD endTime char 10
+ADD day char 10
+ADD employee_ID char 10
+ADD departName char 20
+ADD roleName char 10

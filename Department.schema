@@ -1,0 +1,3 @@
+ADD departID char 10
+ADD departName char 20
+ADD bed char 10

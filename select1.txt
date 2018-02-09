@@ -1,0 +1,12 @@
+CREATE INDEX iSchedule USING startTime, endTime, shiftDate, day, departName, roleName, employee_ID
+FROM Shift, Schedule, Department, Role
+WHERE shiftID = shift_ID
+AND depart_ID = departID  
+AND role_ID = roleID
+END
+SELECT startTime, endTime, shiftDate, day, departName, roleName
+FROM  iSchedule
+WHERE employee_ID = "97001"
+AND shiftDate >= "20171001"
+AND shiftDate <= "20171007"
+END

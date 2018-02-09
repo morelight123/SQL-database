@@ -1,0 +1,21 @@
+Welcome!
+===> CREATE INDEX iSchedule USING startTime, endTime, shiftDate, day, departName, roleName, employee_ID
+===> FROM Shift, Schedule, Department, Role
+===> WHERE shiftID = shift_ID
+===> AND depart_ID = departID  
+===> AND role_ID = roleID
+===> END
+===> SELECT startTime, endTime, shiftDate, day, departName, roleName
+===> FROM  iSchedule
+===> WHERE employee_ID = "97001"
+===> AND shiftDate >= "20171001"
+===> AND shiftDate <= "20171007"
+===> END
+08,16,20171001,Monday,Care Room,doctor
+08,16,20171002,Tuesday,Emergency,Nurse
+08,16,20171003,Wednesday,Care Room,Nurse
+08,16,20171004,Thursday,Heart,Header
+08,16,20171005,Friday,Emergency,doctor
+08,16,20171006,Saturday,Heart,Nurse
+08,16,20171007,Sunday,Care Room,Header
+Goodbye!
